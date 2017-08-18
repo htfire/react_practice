@@ -7,7 +7,8 @@ import './App.css';
 // import If from './components/if/index.js'
 // import List from './components/list/index.js'
 // import Form from './components/form/index.js'
-import StateUp from './components/state_up/index.js'
+// import StateUp from './components/state_up/index.js'
+import StateUp2 from './components/state_up/index2.js'
 
 class App extends Component {
   render() {
@@ -17,8 +18,9 @@ class App extends Component {
         <Event />
         <If isLoggedIn={false} />
         <List />
-        <Form /> */}
-        <StateUp />
+        <Form />
+        <StateUp /> */}
+        <StateUp2 />
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
